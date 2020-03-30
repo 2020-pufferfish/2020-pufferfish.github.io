@@ -1,0 +1,15 @@
+button {
+    font-size: 1.5rem;
+    box-shadow: #333333 5px 3px 9px 0px;
+
+}
+
+h5 {
+    font-size: 1.2rem;
+}
+
+#to-index2 {
+    position: absolute;
+    top: 13%;
+    right: 19%;
+}

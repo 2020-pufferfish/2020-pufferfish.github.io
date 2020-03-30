@@ -1,5 +1,5 @@
 function buttonclc() {
-    const btn = document.querySelector('button');
+    const btn = document.querySelector('#share-btn');
     const theClipboard = navigator.clipboard;
     console.log(theClipboard);
 
