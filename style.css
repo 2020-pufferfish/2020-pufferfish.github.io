@@ -4,6 +4,44 @@ button {
 
 }
 
+@import url(https://fonts.googleapis.com/css?family=Rubik+One&subset=latin,cyrillic);
+.gradient-text {
+    font-family: 'Rubik One', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 35%, rgba(0,18,255,1) 50%, rgba(253,45,45,1) 65%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+    display: table;
+    margin: 20px auto;
+}
+.stroke {
+    font: 2em Arial, sans-serif;
+    text-shadow: whitesmoke 2px 2px 32px;
+}
+
+.main > h1 {
+    font-family: Calibri;
+    font-size: 4.3rem;
+    font-weight: 700;
+    min-width: 300px;
+}
+
+.main > a {
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: #333333;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.main > a:hover {
+    color: white;
+    text-shadow: #FFFFFF 0 0 5px;
+    font-weight: 800;
+}
+
 h5 {
     font-size: 1.2rem;
 }
